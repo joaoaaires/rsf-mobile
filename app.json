@@ -3,6 +3,10 @@
     "name": "rsf-mobile",
     "slug": "rsf-mobile",
     "version": "1.0.0",
+    "scheme": "rsf-mobile",
+    "experiments": {
+      "typedRoutes": true
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -29,6 +33,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
